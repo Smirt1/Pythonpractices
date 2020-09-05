@@ -1,2 +1,0 @@
-print ("Funciona")
-print ("abayarde")
