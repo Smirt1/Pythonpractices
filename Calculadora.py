@@ -3,7 +3,7 @@
 tope1 = 416220.00
 tope2 = 642329.00
 tope3 = 867123.00
-salario = float (input ("Ingrese su sueldo mensual: "))
+salario = float (input ("Ingrese su sueldo mensual por favor: "))
 salario_anual = salario * 12
 isr = 0;
 
