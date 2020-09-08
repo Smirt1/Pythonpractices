@@ -19,5 +19,5 @@ precio = 99.99
 cantidad = 5
 total = cantidad * precio
 print (total)
-resultado = 1 < 2
+resultado = 1 < 3
 print (resultado)
