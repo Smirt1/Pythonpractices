@@ -19,4 +19,4 @@ else:
     excedente = salario_anual - tope3
     isr = 79776.00 + excedente * 0.25
 
-print (isr)
+print (isr / 12)
