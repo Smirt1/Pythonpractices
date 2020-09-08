@@ -18,10 +18,9 @@
 
 # tabla de multiplicar
 
-n = input("ingrese un numero para ver la tabla")
+n = input("Ingrese un numero para ver la tabla: ")
 c = 1
 
 while c <= 12:
     print(int (n)* c )
     c += 1 # c = c + 1
-    
