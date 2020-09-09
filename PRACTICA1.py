@@ -40,26 +40,35 @@
 
 # Almacene cuatro notas 90,95,77, 92 y las promedie. Al final debe decir su calificación en letras A, B,C,D, E ó F.
 
-nota1 = 90
-nota2 = 95
-nota3 = 77
-nota4 = 92
+# nota1 = 90
+# nota2 = 95
+# nota3 = 77
+# nota4 = 92
 
-sumatoria = nota1 + nota2 + nota3 + nota4
-promedio = sumatoria / 4
-print (promedio)
-if promedio >= 90:
-    print("Su nota es A")
-elif promedio <= 89:
-    print ("Su nota es B")
-elif promedio <= 79:
-    print("Su nota es C")
-elif promedio <= 69:
-    print("Su nota es D")
-elif promedio <= 59:
-    print("Su nota es E")
-elif promedio <= 49:
-    print("Su nota es F")
+# sumatoria = nota1 + nota2 + nota3 + nota4
+# promedio = sumatoria / 4
+# print (promedio)
+# if promedio >= 90:
+#     print("Su nota es A")
+# elif promedio <= 89:
+#     print ("Su nota es B")
+# elif promedio <= 79:
+#     print("Su nota es C")
+# elif promedio <= 69:
+#     print("Su nota es D")
+# elif promedio <= 59:
+#     print("Su nota es E")
+# elif promedio <= 49:
+#     print("Su nota es F")
+
+#Que almacene monto, cantidad de cuotas, y porcentaje de interés anual de un préstamo y calcule la cuota mensual. (Amortizar mediante el sistema francés)
+
+R = 0
+prestamo = float (input ("Ingrese el valor del prestamo: "))
+interes = float (input ("Ingrese la tasa solicitada:"))
+cuotas = int(input ("Ingrese el tiempo a pagar:"))
+R = prestamo * ((interes * (1 + interes) * cuotas) / ((1 + interes) * cuotas -1))
+print (R)
 
 
 
