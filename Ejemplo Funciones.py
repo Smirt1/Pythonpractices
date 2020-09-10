@@ -43,7 +43,7 @@ suma_tres (2)
 # multiplicacion
 
 def tabla_de_multiplicacion (n):
-    for i in range (1, 10):
+    for i in range (1, 1000):
         print (n,'*',i, '=',i * n)
 
 
