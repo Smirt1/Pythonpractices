@@ -10,3 +10,4 @@ while numero >= 0:
     
     print(f"La suma de los numeros introducidos es {suma}.")
 
+#Realizar un programa que presente un menú con las siguientes opciones: 
