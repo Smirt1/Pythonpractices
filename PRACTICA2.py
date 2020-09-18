@@ -97,6 +97,5 @@ else:
     print(f"Monto anual con todos los impuestos {total2}")
 
 
-
 #  Cajero
 
