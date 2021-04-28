@@ -41,13 +41,13 @@
 #var = "3.0"
 #print ("Mi version de Linux es: " + var)
 
-# juan = 3
-# maria = 5
-# adan = 6
+juan = 3
+maria = 5
+tulio = 6
 
-# print (juan, maria, adan)
-# totalmanzanas = (juan + maria + adan)
-# print (" El total de manzanas es: ", totalmanzanas)
+print (juan, maria, tulio)
+totalmanzanas = (juan + maria + tulio)
+print (" El total de manzanas es: ", totalmanzanas)
 
 
 # kilometros = 12.25
@@ -111,3 +111,7 @@ horas= str( ((hora*60 + min + dura)//60) % 24)
  
  
 print("Hora: " +horas +":" +minutos)
+
+
+
+#Silvestre
